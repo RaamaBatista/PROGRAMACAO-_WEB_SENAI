@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Consultar CEP</title>
+</head>
+<link rel="stylesheet" href="tetelinha.css">
+
+<body>
+<div class="box">
+    <h2>CONSULTAR CEP </h2>
+    <h3> Consulte as informações pelo CEP!</h3><br>
+    <div class="buscar">
+        <input  type="text" id="cep" placeholder="Digite seu CEP">
+        <button id="consulta" onclick="buscar()">Buscar</button>
+    </div><br><br>
+<br>
+    <div class="endereco">
+        <input type="text" id="rua" placeholder="Logradouro">
+        <input type="text" id="bairro" placeholder="Bairro">
+        <input type="text" id="cidade" placeholder="Localidade">
+        <input type="text" id="estado" placeholder="UF">
+     
+
+    </div>
+    
+</div>
+
+</body>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script src="tetelinha.js"></script>
+</html>

@@ -1,0 +1,41 @@
+*{
+    background-color: rgb(2, 4, 31);
+}
+h2{
+    color: white;
+    text-align: center;
+    font-family:cursive ;
+}
+h3{
+    color: white;
+    font-family: cursive;
+
+}
+.box{
+	width: 340px;
+	height: 340px;
+	border: 2px solid rgb(255, 247, 135);
+	margin: auto;
+	text-align: center;
+    margin-top: 10%;
+}
+#consulta{
+    background-color: rgb(5, 3, 75);
+    color: rgb(251, 255, 8);
+    transform-style: initial;
+    border-radius: 15px;
+    border-color: white;
+    width: 100px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#consulta:hover{
+    background-color: rgb(150, 178, 236);
+    transition: cubic-bezier(0.215, 0.610, 0.355, 1);
+}
+input{
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    text-align: center;
+    color: blue;
+    border-color: rgb(248, 255, 150);
+}
